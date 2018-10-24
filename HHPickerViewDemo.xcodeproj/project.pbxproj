@@ -15,6 +15,7 @@
 		9F74A6F51F5D5E2D00AE2044 /* HHPickerViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74A6F41F5D5E2D00AE2044 /* HHPickerViewDemoTests.swift */; };
 		9F74A7001F5D5E2D00AE2044 /* HHPickerViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74A6FF1F5D5E2D00AE2044 /* HHPickerViewDemoUITests.swift */; };
 		9F74A70E1F5D5E6D00AE2044 /* HHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74A70D1F5D5E6D00AE2044 /* HHPickerView.swift */; };
+		C7871B5E218086B700C8E632 /* abc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7871B5D218086B700C8E632 /* abc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9F74A6FF1F5D5E2D00AE2044 /* HHPickerViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHPickerViewDemoUITests.swift; sourceTree = "<group>"; };
 		9F74A7011F5D5E2D00AE2044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F74A70D1F5D5E6D00AE2044 /* HHPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHPickerView.swift; sourceTree = "<group>"; };
+		C7871B5D218086B700C8E632 /* abc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9F74A6E61F5D5E2D00AE2044 /* Assets.xcassets */,
 				9F74A6E81F5D5E2D00AE2044 /* LaunchScreen.storyboard */,
 				9F74A6EB1F5D5E2D00AE2044 /* Info.plist */,
+				C7871B5D218086B700C8E632 /* abc.swift */,
 			);
 			path = HHPickerViewDemo;
 			sourceTree = "<group>";
@@ -196,7 +199,6 @@
 				TargetAttributes = {
 					9F74A6DB1F5D5E2D00AE2044 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZDEZ7ZNC27;
 						ProvisioningStyle = Automatic;
 					};
 					9F74A6EF1F5D5E2D00AE2044 = {
@@ -267,6 +269,7 @@
 			files = (
 				9F74A6E21F5D5E2D00AE2044 /* ViewController.swift in Sources */,
 				9F74A70E1F5D5E6D00AE2044 /* HHPickerView.swift in Sources */,
+				C7871B5E218086B700C8E632 /* abc.swift in Sources */,
 				9F74A6E01F5D5E2D00AE2044 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZDEZ7ZNC27;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HHPickerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onepiece.HHPickerViewDemo;
@@ -432,7 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZDEZ7ZNC27;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HHPickerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onepiece.HHPickerViewDemo;
