@@ -47,6 +47,7 @@ class ViewController: UIViewController {
 
     //MARK: - ACTIONS
     @objc func selectBtnClick(btn:UIButton){
+        
         let marginTop:CGFloat = 0
         let data = ["红豆","绿豆","扁豆","黄sadfasdfasdfsdfsdf豆","豇豆","灰sdfasdfasdfasdfsdf豆","大红豆","糖豆","巴豆"]
         if btn.tag == HHPickerViewType.time.rawValue {
