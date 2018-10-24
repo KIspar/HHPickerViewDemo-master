@@ -11,5 +11,6 @@ import UIKit
 class abc{
     func abcld(){
         print("abcld")
+        print("测试")
     }
 }
